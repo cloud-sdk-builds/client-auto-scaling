@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-auto-scaling`](https://www.npmjs.com/package/@aws-sdk/client-auto-scaling/v/3.1077.0).
+[`@aws-sdk/client-auto-scaling`](https://www.npmjs.com/package/@aws-sdk/client-auto-scaling/v/3.1078.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-auto-scaling - [https://cloud-sdk-builds.github.io/?sdk=client-auto-scaling](https://cloud-sdk-builds.github.io/?sdk=client-auto-scaling)
-- @aws-sdk/client-auto-scaling v3.1077.0 - [https://cloud-sdk-builds.github.io/?sdk=client-auto-scaling&version=3.1077.0](https://cloud-sdk-builds.github.io/?sdk=client-auto-scaling&version=3.1077.0)
+- @aws-sdk/client-auto-scaling v3.1078.0 - [https://cloud-sdk-builds.github.io/?sdk=client-auto-scaling&version=3.1078.0](https://cloud-sdk-builds.github.io/?sdk=client-auto-scaling&version=3.1078.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling@3.1077.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling@3.1078.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-gJTco8DNazC7tWaATTJ6VTASvgmdOOzWUKBbl4CXv63FbBl8XNhmDFgqFgJWY1rT
+sha384-3bIHopxDHbDjbyZJZkCT9RUk/DHvs+IxilD2MTdMDMcpZxbhss2OGYtFYG8Ncgh3
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-auto-scaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling@3.1077.0/index.min.mjs"
+            "@aws-sdk/client-auto-scaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling@3.1078.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling@3.1077.0/index.min.mjs": "sha384-gJTco8DNazC7tWaATTJ6VTASvgmdOOzWUKBbl4CXv63FbBl8XNhmDFgqFgJWY1rT"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling@3.1078.0/index.min.mjs": "sha384-3bIHopxDHbDjbyZJZkCT9RUk/DHvs+IxilD2MTdMDMcpZxbhss2OGYtFYG8Ncgh3"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-auto-scaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling@3.1077.0/index.min.mjs"
+                        "@aws-sdk/client-auto-scaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling@3.1078.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling@3.1077.0/index.min.mjs": "sha384-gJTco8DNazC7tWaATTJ6VTASvgmdOOzWUKBbl4CXv63FbBl8XNhmDFgqFgJWY1rT"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling@3.1078.0/index.min.mjs": "sha384-3bIHopxDHbDjbyZJZkCT9RUk/DHvs+IxilD2MTdMDMcpZxbhss2OGYtFYG8Ncgh3"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1077.0`)
+* Always pin to a specific version (`@3.1078.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-auto-scaling/blob/refs/tags/3.1077.0/LICENSE
+https://github.com/cloud-sdk-builds/client-auto-scaling/blob/refs/tags/3.1078.0/LICENSE
 ```
 
 ---
